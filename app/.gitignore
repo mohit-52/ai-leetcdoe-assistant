@@ -1,0 +1,103 @@
+# =============================================
+# Flutter / Dart
+# =============================================
+
+# Pub package manager
+.dart_tool/
+.packages
+pubspec.lock
+
+# Build outputs
+build/
+
+# Dart generated JS files
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+
+# Flutter plugin files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Dartdoc output
+doc/api/
+
+# =============================================
+# Android
+# =============================================
+
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/gradle.properties
+**/android/.idea/
+**/android/.flutter-plugins
+**/android/.flutter-plugins-dependencies
+**/android/.dart_tool/
+**/android/.generated/
+**/android/app/src/main/flutter_assets/
+**/android/app/src/main/assets/flutter_assets/
+**/android/app/key.properties
+key.properties
+
+# =============================================
+# iOS
+# =============================================
+
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.xcconfig
+**/ios/Flutter/Debug.xcconfig
+**/ios/Flutter/Release.xcconfig
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/AppFrameworkInfo.plist
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/flutter_project.podspec
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/.last_build_id
+**/ios/.generated/
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# =============================================
+# Python / Virtual Environment
+# =============================================
+
+venv/
+.venv/
+env/
+.env/
+.env*
+
+# =============================================
+# IDE & Editor
+# =============================================
+
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# =============================================
+# OS-Specific
+# =============================================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+.directory
